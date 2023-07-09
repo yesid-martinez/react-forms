@@ -1,4 +1,10 @@
+import { useContext } from "react";
+import SignContext from "../context/SignContext";
+
 const SignUp = () => {
+
+    const { setStep } = useContext(SignContext);
+
     return (
         <main>
         <h3>Welcome, join us!</h3>
@@ -44,7 +50,9 @@ const SignUp = () => {
             </form>
         </div>
         <p>
-            Already have an account? <span>Sign in</span>
+            Already have an account? <span
+                onClick={() => setStep("signin")}
+            >Sign in</span>
         </p>
         </main>
     );
