@@ -1,11 +1,12 @@
-import SignIn from "./components/SignIn";
-
+// import SignIn from "./components/SignIn";
+import ForgotPassword from "./components/ForgotPassword";
 
 function App() {
 
   return(
     <div className="container">
-      <SignIn/>
+      {/* <SignIn/> */}
+      <ForgotPassword/>
     </div>
   )
 }
