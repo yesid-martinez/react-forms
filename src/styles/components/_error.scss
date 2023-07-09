@@ -9,4 +9,12 @@
         text-align: right;
         display: none;
     }
+
+    .error-message {
+        color: v.$error;
+        font-family: v.$font-family;
+        font-size: 0.8rem;
+        text-align: right;
+        margin-top: 0.4rem;
+    }
 }

@@ -8,7 +8,7 @@ import SignContext from "./context/SignContext";
 
 function App() {
 
-  const [step, setStep] = useState("signin");
+  const [step, setStep] = useState("forgotpassword");
 
   return(
     <SignContext.Provider value={{step, setStep}}>
